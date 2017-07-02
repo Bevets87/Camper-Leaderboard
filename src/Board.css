@@ -1,0 +1,41 @@
+.camper-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.camper-wrapper-first {
+  width: 6%;
+}
+
+.camper-wrapper {
+  height: 50px;
+  width: 21%;
+  text-align: right;
+  clear: both;
+}
+
+.camper-username {
+  float: right;
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 50px;
+  float: left;
+}
+
+@media(max-width: 600px) {
+  .camper-position {
+    font-size: 10px;
+  }
+  .camper-username {
+    font-size: 10px;
+  }
+  .camper-recent-points {
+    font-size: 10px;
+  }
+  .camper-all-time-points {
+    font-size: 10px;
+  }
+}

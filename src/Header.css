@@ -1,0 +1,24 @@
+.fcc-logo {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+
+}
+.header-title {
+  margin-top: 0px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+@media(max-width: 768px) {
+  .header-title {
+    font-size: 25px;
+  }
+}
+
+
+a:hover {
+  cursor: pointer;
+}

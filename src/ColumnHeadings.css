@@ -1,0 +1,81 @@
+.column-headings-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column-heading-wrapper-first {
+  width: 6%;
+}
+
+.camper-img {
+  float: left;
+  font-weight: bold;
+}
+
+.column-heading-wrapper {
+  height: 50px;
+  width: 21%;
+  text-align: right;
+  clear: both;
+}
+
+
+.count {
+  font-weight: bold;
+}
+.camper-name {
+  font-weight: bold;
+}
+.all-time {
+  font-weight: bold;
+}
+.recent {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .camper-img {
+    font-size: 23px;
+  }
+  .count {
+    font-size: 23px;
+  }
+  .camper-name {
+    font-size: 23px;
+  }
+  .all-time {
+    font-size: 23px;
+  }
+  .recent {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 600px) {
+  .camper-img {
+    font-size: 15px;
+  }
+  .count {
+    font-size: 15px;
+  }
+  .camper-name {
+    font-size: 15px;
+  }
+  .all-time {
+    font-size: 15px;
+  }
+  .recent {
+    font-size: 15px;
+  }
+}
+
+a {
+  width: auto;
+}
+
+.col-xs-1,.col-xs-5,.col-xs-3 {
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+}
